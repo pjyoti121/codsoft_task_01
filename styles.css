@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(44, 44, 135)
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+list-style: none;
+margin : 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color:lavender;
+    font-size: 1.2rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2.5rem;
+
+   }
+
+.rightsection img{
+
+    width: 80%;
+}
+
+.purple{
+   
+    color:blueviolet;
+}
+
+.heading{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:cyan;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+
+.skill {
+    text-align: center;
+    margin: 20px;
+}
+
+.skill img {
+    width: 100px; /* Adjust the image size as needed */
+}
+
+.skill p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #11073f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+.links a{
+    text-decoration: none;
+    text-align: center;
+}
